@@ -30,7 +30,7 @@
       "name": "gov.uk",
       "web": "https://www.gov.uk/government/publications/disposal-database-house-of-commons-report"
     }
-  ]
+  ],
   "resources": [
     {
       "path": "disposals.csv",

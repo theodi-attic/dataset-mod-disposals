@@ -1,0 +1,96 @@
+{
+  "name": "Disposal database: House of Commons report",
+  "description": "MoD present and future disposal properties that are in the public domain that is provided for reference in the House of Commons library. This version is being used for GitHub workflow experimentation by the ODI.",
+  "licenses": [
+    {
+      "id": "ogl",
+      "url": "http://reference.data.gov.uk/id/open-government-licence"
+    }
+  ],
+  "publishers": [
+    {
+      "name": "Defence Infrastructure Organisation",
+      "web": "http://data.gov.uk/publisher/defence-infrastructure-organisation"
+    }
+  ],
+  "keywords": [
+    "Defence",
+    "Government",
+    "Land and Property",
+    "Property",
+    "disposals",
+    "house of commons"
+  ],
+  "sources" : [ 
+    {
+      "name": "data.gov.uk",
+      "web": "http://data.gov.uk/dataset/defence-infrastructure-organisation-disposals-database-house-of-commons-report"
+    },
+    {
+      "name": "gov.uk",
+      "web": "https://www.gov.uk/government/publications/disposal-database-house-of-commons-report"
+    }
+  ]
+  "resources": [
+    {
+      "path": "disposals.csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "MOD CRN",
+            "type": "text"
+          },
+          {
+            "id": "Name",
+            "type": "text"
+          }, 
+          {
+            "id": "Address",
+            "type": "text"
+          }, 
+          {
+            "id": "Town",
+            "type": "text"
+          }, 
+          {
+            "id": "County",
+            "type": "text"
+          }, 
+          {
+            "id": "Area (Ha)",
+            "label": "Area",
+            "type": "text",
+            "unit": {
+              "id": "Ha",
+              "type": "physical"
+            }
+          }, 
+          {
+            "id": "Grid Reference",
+            "type": "text"
+          }, 
+          {
+            "id": "Property Type",
+            "type": "text"
+          }, 
+          {
+            "id": "Expected Planning Use",
+            "type": "text"
+          }, 
+          {
+            "id": "Expected Number of Housing Units",
+            "type": "text"
+          }, 
+          {
+            "id": "Constituency",
+            "type": "text"
+          }, 
+          {
+            "id": "Financial Year",
+            "type": "date"
+          }
+        ]
+      }
+    }
+  ]
+}

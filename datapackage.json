@@ -70,6 +70,14 @@
             "type": "text"
           }, 
           {
+            "id": "Easting",
+            "type": "number"
+          }, 
+          {
+            "id": "Northing",
+            "type": "number"
+          }, 
+          {
             "id": "Property Type",
             "type": "text"
           }, 

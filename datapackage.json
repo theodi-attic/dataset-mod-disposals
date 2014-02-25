@@ -35,6 +35,7 @@
   ],
   "resources": [
     {
+      "url": "https://raw.github.com/theodi/dataset-mod-disposals/master/disposals.csv", 
       "path": "disposals.csv",
       "mediatype": "text/csv",
       "schema": {

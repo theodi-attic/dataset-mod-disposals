@@ -1,5 +1,7 @@
 {
-  "name": "Disposal database: House of Commons report",
+  "datapackage_version": "1.0-beta.7",
+  "name": "dataset-mod-disposals",
+  "title": "Disposal database: House of Commons report",
   "description": "MoD present and future disposal properties that are in the public domain that is provided for reference in the House of Commons library. This version is being used for GitHub workflow experimentation by the ODI.",
   "licenses": [
     {
@@ -7,7 +9,7 @@
       "url": "http://reference.data.gov.uk/id/open-government-licence"
     }
   ],
-  "publishers": [
+  "publisher": [
     {
       "name": "Defence Infrastructure Organisation",
       "web": "http://data.gov.uk/publisher/defence-infrastructure-organisation"
@@ -34,59 +36,60 @@
   "resources": [
     {
       "path": "disposals.csv",
+      "mediatype": "text/csv",
       "schema": {
         "fields": [
           {
-            "id": "MOD CRN",
-            "type": "text"
+            "name": "MOD CRN",
+            "type": "string"
           },
           {
-            "id": "Name",
-            "type": "text"
+            "name": "Name",
+            "type": "string"
           }, 
           {
-            "id": "Address",
-            "type": "text"
+            "name": "Address",
+            "type": "string"
           }, 
           {
-            "id": "Town",
-            "type": "text"
+            "name": "Town",
+            "type": "string"
           }, 
           {
-            "id": "County",
-            "type": "text"
+            "name": "County",
+            "type": "string"
           }, 
           {
-            "id": "Area (Ha)",
+            "name": "Area (Ha)",
             "label": "Area",
-            "type": "text",
+            "type": "string",
             "unit": {
               "id": "Ha",
               "type": "physical"
             }
           }, 
           {
-            "id": "Grid Reference",
-            "type": "text"
+            "name": "Grid Reference",
+            "type": "string"
           }, 
           {
-            "id": "Property Type",
-            "type": "text"
+            "name": "Property Type",
+            "type": "string"
           }, 
           {
-            "id": "Expected Planning Use",
-            "type": "text"
+            "name": "Expected Planning Use",
+            "type": "string"
           }, 
           {
-            "id": "Expected Number of Housing Units",
-            "type": "text"
+            "name": "Expected Number of Housing Units",
+            "type": "string"
           }, 
           {
-            "id": "Constituency",
-            "type": "text"
+            "name": "Constituency",
+            "type": "string"
           }, 
           {
-            "id": "Financial Year",
+            "name": "Financial Year",
             "type": "date"
           }
         ]
